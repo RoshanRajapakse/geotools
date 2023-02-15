@@ -16,7 +16,7 @@
   <description>Datastore plugin for VSI Virtual File System support.</description>
 
   <properties>
-    <gdal.version>2.2.0</gdal.version>
+    <gdal.version>2.4.0</gdal.version>
   </properties>
 
   <dependencies>
