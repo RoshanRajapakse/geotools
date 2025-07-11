@@ -286,7 +286,7 @@
       <id>simboss</id>
       <name>Simone Giannecchini</name>
       <email>simboss1@gmail.com</email>
-      <organization></organization>
+      <organization/>
       <roles>
         <role>Java Developer</role>
         <role>Documentation</role>
@@ -307,7 +307,7 @@
       <id>lmoran</id>
       <name>Luca Morandini</name>
       <email>lmorandini@ieee.org</email>
-      <organization></organization>
+      <organization/>
       <roles>
         <role>Java Developer</role>
         <role>Module Maintainer</role>
@@ -327,7 +327,7 @@
 
   </developers>
 
-  <contributors></contributors>
+  <contributors/>
 
   <mailingLists>
     <mailingList>
@@ -481,8 +481,8 @@
     <elasticsearch.version>7.14.0</elasticsearch.version>
     <imageio.ext.version>1.4.7</imageio.ext.version>
     <informix.jdbc.version>4.50.7.1</informix.jdbc.version>
-    <jackson2.databind.version>2.13.4.1</jackson2.databind.version>
-    <jackson2.version>2.13.2</jackson2.version>
+    <jackson2.databind.version>2.15.0</jackson2.databind.version>
+    <jackson2.version>2.15.0</jackson2.version>
     <jaiext.version>1.1.24</jaiext.version>
     <javax.activation-api.version>1.2.0</javax.activation-api.version>
     <jaxb.api.version>2.4.0-b180830.0359</jaxb.api.version>
@@ -507,13 +507,13 @@
     <!-- surefire configuration -->
     <allow.test.failure.ignore>false</allow.test.failure.ignore>
     <allow.test.skip>true</allow.test.skip>
-    <argLine></argLine>
+    <argLine/>
     <extensive.tests>false</extensive.tests>
     <interactive.image>false</interactive.image>
     <interactive.tests>false</interactive.tests>
     <java.awt.headless>true</java.awt.headless>
     <jdk11test.skip.pattern>**/*JDK11Test.java</jdk11test.skip.pattern>
-    <jvm.opts></jvm.opts>
+    <jvm.opts/>
     <lint>deprecation,unchecked</lint>
     <logging-profile>quiet-logging</logging-profile>
     <online.skip.pattern>**/*OnlineTest.java</online.skip.pattern>
@@ -521,17 +521,17 @@
     <src.output>${basedir}/target</src.output>
     <stress.skip.pattern>**/*StressTest.java</stress.skip.pattern>
     <sun.java2d.d3d>true</sun.java2d.d3d>
-    <test.args></test.args>
+    <test.args/>
     <test.exclude.pattern>disabled</test.exclude.pattern>
     <test.forkMode>once</test.forkMode>
     <test.maxHeapSize>256M</test.maxHeapSize>
-    <test.otherJVMParams></test.otherJVMParams>
+    <test.otherJVMParams/>
     <!-- qa configuration -->
     <checkstyle.excludes>**/generated/**/*</checkstyle.excludes>
     <checkstyle.file>checkstyle.xml</checkstyle.file>
     <checkstyle.skip>false</checkstyle.skip>
     <errorProne.version>2.10.0</errorProne.version>
-    <errorProneFlags></errorProneFlags>
+    <errorProneFlags/>
     <jacoco.version>0.8.7</jacoco.version>
     <lint>deprecation,unchecked</lint>
     <maven.jacoco.plugin.version>0.8.2</maven.jacoco.plugin.version>
@@ -1636,7 +1636,7 @@
               <name>moduleIdentifierStep1</name>
               <value>${project.groupId}.${project.artifactId}</value>
               <regex>gt-</regex>
-              <replacement></replacement>
+              <replacement/>
               <failIfNoMatch>false</failIfNoMatch>
             </configuration>
           </execution>
@@ -2538,7 +2538,7 @@
                 </goals>
                 <configuration>
                   <rules>
-                    <banDuplicatePomDependencyVersions></banDuplicatePomDependencyVersions>
+                    <banDuplicatePomDependencyVersions/>
                     <requirePluginVersions>
                       <message>Best Practice is to always define plugin versions</message>
                       <phases>clean,deploy,install</phases>
